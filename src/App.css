@@ -1,0 +1,34 @@
+.flex {
+    width: 60%;
+    display: flex;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.img-con {
+    border: 2px solid rgb(231, 218, 26);
+    margin-right: 2px;
+    width: 40em;
+}
+
+.img-con img {
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
+.desc {
+    padding-left: 15px;
+    color: grey;
+    border: 2px solid grey;
+}
+.title {
+    padding-left: 15px;
+    color: orangered;
+    margin-bottom: 2px;
+    border: 2px solid orangered;
+}
